@@ -2,19 +2,23 @@
 title: Decorators
 ---
 
-## Auth Gaurd
+Decorators are used when we want to excess the request object data.
 
-**Use this when you want to make your api secure/ unauthenticated user can't access it**
+## User Decorator
+
+**Use this when you want to access the logged in user**
 
 ```shell
 @Query(() => String)
 @UseGuards(JwtAuthGuard)
-async test() {
+async test(
+    @User() user: UserEntity,
+) {
     return 'test'
   }
 ```
 
-## Role Gaurd
+## Role Decorators
 
 **Use this when you want to make your api accessible to a certain set user with specific role**
 
@@ -27,26 +31,4 @@ async test() {
   }
 ```
 
-## Webhook Gaurd
-
-**Use this when you want to secure your webhook created using hasura**
-
-```shell
-@Query(() => String)
-@UseGuards(WebhookAuthGuard)
-async test() {
-    return 'test'
-  }
-```
-
-## Throttler Guard
-
-**Use this when you want to limit your api to be hit not more than n no of times**
-
-```shell
-@Query(() => String)
-@UseGuards(GqlThrottlerGuard)
-async test() {
-    return 'test'
-  }
-```
+\*Role decorator is used in conjunction with Role Guard
