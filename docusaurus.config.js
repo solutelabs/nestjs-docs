@@ -1,20 +1,20 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
+  title: "Nestjs Boilerplate",
+  tagline: "Production Grade Nestjs Boilerplate",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "sambhav-solutelabs", // Usually your GitHub org/user name.
+  projectName: "nestjs-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "NestJS Boilerplate",
       items: [
         {
-          href: "https://github.com/solutelabs/nestjs-boilerplate",
+          href: "https://github.com/sambhav-solutelabs/nestjs-docs",
           label: "GitHub",
           position: "right",
         },
@@ -45,7 +45,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/sambhav-solutelabs/nestjs-docs",
             },
           ],
         },
