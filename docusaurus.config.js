@@ -2,7 +2,7 @@
 module.exports = {
   title: "Nestjs Boilerplate",
   tagline: "Production Grade Nestjs Boilerplate",
-  url: "solutelabs.github.io",
+  url: "https://solutelabs.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
