@@ -2,19 +2,19 @@
 module.exports = {
   title: "Nestjs Boilerplate",
   tagline: "Production Grade Nestjs Boilerplate",
-  url: "https://your-docusaurus-test-site.com",
+  url: "solutelabs.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "sambhav-solutelabs", // Usually your GitHub org/user name.
+  organizationName: "Solutelabs", // Usually your GitHub org/user name.
   projectName: "nestjs-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "NestJS Boilerplate",
       items: [
         {
-          href: "https://github.com/sambhav-solutelabs/nestjs-docs",
+          href: "https://github.com/solutelabs/nestjs-docs",
           label: "GitHub",
           position: "right",
         },
@@ -45,7 +45,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/sambhav-solutelabs/nestjs-docs",
+              href: "https://github.com/solutelabs/nestjs-docs",
             },
           ],
         },
