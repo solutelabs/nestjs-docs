@@ -7,7 +7,7 @@ title: Project Setup
 ```shell
 cd workspace
 
-git clone https://github.com/sambhav-solutelabs/nestjs-boilerplate your_project_name
+git clone https://github.com/solutelabs/nestjs-boilerplate your_project_name
 ```
 
 ## Step 2: Setup the project
